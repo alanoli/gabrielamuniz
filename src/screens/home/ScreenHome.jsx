@@ -42,7 +42,7 @@ const ScreenHome = () => {
 						linkUrl="https://www.tiktok.com/@gabrielamunizcantora?lang=pt-BR"
 					/>
 					<Card
-						name="Entre no grupo exclusivo de fans"
+						name="Entre no grupo exclusivo de fãs"
 						srcImage="telegram_black.svg"
 						linkUrl="https://t.me/joinchat/GCbRLx8DjwY5hmkb"
 					/>
