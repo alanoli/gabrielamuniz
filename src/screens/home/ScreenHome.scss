@@ -60,7 +60,7 @@
 
 	.mic {
 		position: absolute;
-		top: 0px;
+		top: -5px;
 		left: 0px;
 
 		animation: mic-movement 1s ease-in-out alternate infinite;
@@ -85,10 +85,10 @@
 
 @keyframes mic-movement {
 	from {
-		transform: translateX(4px);
+		transform: rotate(3deg);
 	}
 
 	to {
-		transform: translateX(-4px);
+		transform: rotate(-3deg);
 	}
 }
