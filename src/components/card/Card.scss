@@ -1,0 +1,28 @@
+@import "../../index.scss";
+
+.card-root {
+
+	width: 80%;
+	min-height: 50px;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+
+	border-radius: 4px;
+
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+	background-color: $white;
+
+	margin: auto;
+	margin-bottom: 10px;
+
+	img {
+		width: auto;
+		align-self: center;
+		justify-self: center;
+	}
+
+	.label {
+		font-size: 0.9rem;
+	}
+}
