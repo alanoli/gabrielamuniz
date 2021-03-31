@@ -20,7 +20,7 @@
 	
 			img {
 				width: auto;
-				height: 30vh;
+				height: 25vh;
 				opacity: 1;
 			}
 		}
@@ -63,6 +63,8 @@
 		top: 0px;
 		left: 0px;
 
+		animation: mic-movement 1s ease-in-out alternate infinite;
+
 		img {
 			height: auto;
 			max-height: 40vh;
@@ -79,5 +81,14 @@
 			height: auto;
 		}
 	}
+}
 
+@keyframes mic-movement {
+	from {
+		transform: translateX(4px);
+	}
+
+	to {
+		transform: translateX(-4px);
+	}
 }
