@@ -29,18 +29,22 @@ const ScreenHome = () => {
 					<Card
 						name="Inscreva-se no meu canal"
 						srcImage="youtube_black.svg"
+						linkUrl="https://www.youtube.com/channel/UCy9FfYH1u8ev-atohVkwduw"
 					/>
 					<Card
 						name="Me siga no Instagram"
 						srcImage="instagram_black.svg"
+						linkUrl="https://www.instagram.com/gabrielamunizcantora/"
 					/>
 					<Card
 						name="Me siga no TikTok"
 						srcImage="tiktok_black.svg"
+						linkUrl="https://www.tiktok.com/@gabrielamunizcantora?lang=pt-BR"
 					/>
 					<Card
 						name="Entre no grupo exclusivo de fans"
 						srcImage="telegram_black.svg"
+						linkUrl="https://t.me/joinchat/GCbRLx8DjwY5hmkb"
 					/>
 				</div>
 			</div>

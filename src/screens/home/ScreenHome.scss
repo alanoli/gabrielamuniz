@@ -45,6 +45,11 @@
 		.links-root {
 			padding: 0px 70px;
 			width: 100%;
+
+			.card-root:active {
+				background-color: $terciary;
+				transform: translateY(4px);
+			}
 		}
 	}
 
