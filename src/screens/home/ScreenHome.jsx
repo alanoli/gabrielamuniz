@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Card from '../../components/card/Card';
 import './ScreenHome.scss';
 
 const ScreenHome = () => {
+
+	const [copyItemVisible, setCopyItemVisible] = useState(false);
 
 	const micLogo = require('../../assets/images/mic_logo.svg');
 	const musicLogo = require('../../assets/images/music_logo.svg');
@@ -46,6 +48,16 @@ const ScreenHome = () => {
 						srcImage="telegram_black.svg"
 						linkUrl="https://t.me/joinchat/GCbRLx8DjwY5hmkb"
 					/>
+					<Card
+						name="PIX: apoiasegabriela@gmail.com"
+						srcImage="pix_black.svg"
+						linkUrl="apoiasegabriela@gmail.com"
+						copyToClipboard
+						onClickAction={() => { setCopyItemVisible(true); setTimeout(() => setCopyItemVisible(false), 3000); }}
+					/>
+				</div>
+				<div className={`copied-item ${copyItemVisible ? 'active' : ''}`}>
+					<p className="text">Chave PIX copiada!</p>
 				</div>
 			</div>
 		</div>

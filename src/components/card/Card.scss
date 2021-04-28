@@ -16,6 +16,14 @@
 	margin: auto;
 	margin-bottom: 10px;
 
+	cursor: pointer;
+
+	transition: filter 0.2s;
+
+	&:hover {
+		filter: brightness(0.95);
+	}
+
 	img {
 		width: auto;
 		align-self: center;

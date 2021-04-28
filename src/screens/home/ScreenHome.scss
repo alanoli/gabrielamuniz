@@ -1,6 +1,6 @@
 @import "../../index.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
 
 .home-root {
 	max-height: 100vh;
@@ -17,7 +17,7 @@
 		.profile-image {
 			border-radius: 50%;
 			overflow: hidden;
-	
+
 			img {
 				width: auto;
 				height: 25vh;
@@ -31,7 +31,7 @@
 				margin: 0;
 				text-align: center;
 				color: $secondary;
-				font-family: 'Montserrat', sans-serif;
+				font-family: "Montserrat", sans-serif;
 				text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 			}
 			.title {
@@ -49,6 +49,25 @@
 			.card-root:active {
 				background-color: $terciary;
 				transform: translateY(4px);
+			}
+		}
+
+		.copied-item {
+			background-color: rgb(41, 190, 98);
+			color: $white;
+			font-weight: bold;
+			padding: 5px 20px;
+			border-radius: 5px;
+			box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+			transition: visibility linear 300ms, opacity 300ms;
+			visibility: hidden;
+			opacity: 0;
+			
+			&.active {
+				visibility: visible;
+				opacity: 1;
+				transition: visibility linear 300ms, opacity 300ms;
 			}
 		}
 	}
@@ -90,5 +109,22 @@
 
 	to {
 		transform: rotate(-3deg);
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	// Desktop and tablets
+	.home-root {
+		.data-root {
+			.links-root {
+				max-width: 50%;
+			}
+		}
+
+		.music-symbol {
+			img {
+				width: 30vw;
+			}
+		}
 	}
 }
