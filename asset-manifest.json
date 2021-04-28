@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gabrielamuniz/static/css/main.c091fc16.chunk.css",
-    "main.js": "/gabrielamuniz/static/js/main.e66e1aa6.chunk.js",
-    "main.js.map": "/gabrielamuniz/static/js/main.e66e1aa6.chunk.js.map",
+    "main.css": "/gabrielamuniz/static/css/main.1cb9cf91.chunk.css",
+    "main.js": "/gabrielamuniz/static/js/main.6ef0b6ac.chunk.js",
+    "main.js.map": "/gabrielamuniz/static/js/main.6ef0b6ac.chunk.js.map",
     "runtime-main.js": "/gabrielamuniz/static/js/runtime-main.60e17abb.js",
     "runtime-main.js.map": "/gabrielamuniz/static/js/runtime-main.60e17abb.js.map",
     "static/js/2.c2611ed8.chunk.js": "/gabrielamuniz/static/js/2.c2611ed8.chunk.js",
     "static/js/2.c2611ed8.chunk.js.map": "/gabrielamuniz/static/js/2.c2611ed8.chunk.js.map",
     "index.html": "/gabrielamuniz/index.html",
-    "static/css/main.c091fc16.chunk.css.map": "/gabrielamuniz/static/css/main.c091fc16.chunk.css.map",
+    "static/css/main.1cb9cf91.chunk.css.map": "/gabrielamuniz/static/css/main.1cb9cf91.chunk.css.map",
     "static/js/2.c2611ed8.chunk.js.LICENSE.txt": "/gabrielamuniz/static/js/2.c2611ed8.chunk.js.LICENSE.txt",
     "static/media/bildes.png": "/gabrielamuniz/static/media/bildes.40474119.png",
     "static/media/instagram_black.svg": "/gabrielamuniz/static/media/instagram_black.2cb29cbc.svg",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.60e17abb.js",
     "static/js/2.c2611ed8.chunk.js",
-    "static/css/main.c091fc16.chunk.css",
-    "static/js/main.e66e1aa6.chunk.js"
+    "static/css/main.1cb9cf91.chunk.css",
+    "static/js/main.6ef0b6ac.chunk.js"
   ]
 }
