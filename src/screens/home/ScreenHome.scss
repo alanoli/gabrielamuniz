@@ -1,6 +1,6 @@
 @import "../../index.scss";
 
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap");
 
 .home-root {
 	max-height: 100vh;
@@ -39,6 +39,8 @@
 			}
 			.sub-title {
 				margin: 20px 0px 20px 0px;
+				color: $quaternary;
+				font-weight: 400;
 			}
 		}
 
@@ -63,6 +65,9 @@
 			transition: visibility linear 300ms, opacity 300ms;
 			visibility: hidden;
 			opacity: 0;
+
+			position: absolute;
+			top: 50vh;
 			
 			&.active {
 				visibility: visible;

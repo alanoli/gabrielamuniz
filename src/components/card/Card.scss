@@ -19,13 +19,18 @@
 	cursor: pointer;
 
 	transition: filter 0.2s;
+	box-sizing: border-box;
 
 	&:hover {
 		filter: brightness(0.95);
 	}
 
 	img {
-		width: auto;
+		// width: auto;
+		// height: 80%;
+
+		// object-fit: contain;
+
 		align-self: center;
 		justify-self: center;
 	}

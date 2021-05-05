@@ -29,6 +29,13 @@ const ScreenHome = () => {
 				</div>
 				<div className="links-root">
 					<Card
+						name="PIX: apoiasegabriela@gmail.com"
+						srcImage="pix_black.svg"
+						linkUrl="apoiasegabriela@gmail.com"
+						copyToClipboard
+						onClickAction={() => { setCopyItemVisible(true); setTimeout(() => setCopyItemVisible(false), 3000); }}
+					/>
+					<Card
 						name="Inscreva-se no meu canal"
 						srcImage="youtube_black.svg"
 						linkUrl="https://www.youtube.com/channel/UCy9FfYH1u8ev-atohVkwduw"
@@ -46,14 +53,7 @@ const ScreenHome = () => {
 					<Card
 						name="Entre no grupo exclusivo de fãs"
 						srcImage="telegram_black.svg"
-						linkUrl="https://t.me/joinchat/GCbRLx8DjwY5hmkb"
-					/>
-					<Card
-						name="PIX: apoiasegabriela@gmail.com"
-						srcImage="pix_black.svg"
-						linkUrl="apoiasegabriela@gmail.com"
-						copyToClipboard
-						onClickAction={() => { setCopyItemVisible(true); setTimeout(() => setCopyItemVisible(false), 3000); }}
+						linkUrl="http://t.me/gabrielamunizcantora"
 					/>
 				</div>
 				<div className={`copied-item ${copyItemVisible ? 'active' : ''}`}>
